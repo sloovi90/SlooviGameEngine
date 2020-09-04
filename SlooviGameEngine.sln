@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{C8C2FAC6-BDA3-4DE3-8B6A-FF38129F92C2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SlooviGameEngine", "SlooviGameEngine\SlooviGameEngine.vcxproj", "{435B8C83-BCB3-4432-9BA2-ACF6303D4286}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{435B8C83-BCB3-4432-9BA2-ACF6303D4286}.Debug|x64.ActiveCfg = Debug|x64
+		{435B8C83-BCB3-4432-9BA2-ACF6303D4286}.Debug|x64.Build.0 = Debug|x64
+		{435B8C83-BCB3-4432-9BA2-ACF6303D4286}.Release|x64.ActiveCfg = Release|x64
+		{435B8C83-BCB3-4432-9BA2-ACF6303D4286}.Release|x64.Build.0 = Release|x64
+		{C8C2FAC6-BDA3-4DE3-8B6A-FF38129F92C2}.Debug|x64.ActiveCfg = Debug|x64
+		{C8C2FAC6-BDA3-4DE3-8B6A-FF38129F92C2}.Debug|x64.Build.0 = Debug|x64
+		{C8C2FAC6-BDA3-4DE3-8B6A-FF38129F92C2}.Release|x64.ActiveCfg = Release|x64
+		{C8C2FAC6-BDA3-4DE3-8B6A-FF38129F92C2}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DC6120A-D789-4E89-A0CE-D5F143696766}
+	EndGlobalSection
+EndGlobal
