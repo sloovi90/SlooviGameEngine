@@ -4,7 +4,7 @@
 
 namespace Sloovi {
 
-	class  SLOOVI_API Application
+	class  SGE_API Application
 	{
 
 	public:

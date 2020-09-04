@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\EngineCore\Logger.h" />
     <ClInclude Include="src\EngineCore\Application.h" />
     <ClInclude Include="src\EngineCore\CoreConfig.h" />
     <ClInclude Include="src\EngineCore\EntryPoint.h" />
     <ClInclude Include="src\SlooviEngine.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\EngineCore\Logger.cpp" />
     <ClCompile Include="src\EngineCore\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -67,6 +69,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>SLOOVI_BUILD_DLL;SLOOVI_PLATFORM_WINDOWS;SLOOVI_PLATFORM_WINDOWS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)SlooviGameEngine\3rd_Party\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -81,6 +84,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>SLOOVI_BUILD_DLL;SLOOVI_PLATFORM_WINDOWS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)SlooviGameEngine\3rd_Party\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

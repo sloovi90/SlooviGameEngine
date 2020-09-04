@@ -5,9 +5,9 @@
 
 #ifdef SLOOVI_PLATFORM_WINDOWS 
 	#ifdef SLOOVI_BUILD_DLL
-		#define SLOOVI_API __declspec(dllexport)
+		#define SGE_API __declspec(dllexport)
 	#else   
-		#define SLOOVI_API __declspec(dllimport)
+		#define SGE_API __declspec(dllimport)
 	#endif
 #else
 #error SLOOVI is supported only for windows atm

@@ -1,0 +1,3 @@
+[submodule "SlooviGameEngine/3rd_Party/spdlog"]
+	path = SlooviGameEngine/3rd_Party/spdlog
+	url = https://github.com/gabime/spdlog
